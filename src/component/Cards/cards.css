@@ -1,0 +1,118 @@
+.cards__container {
+  width: 100%;
+  height: auto;
+
+  background-color: #f1f6fb;
+  padding: 50px;
+}
+.cards__heading {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  color: #002c8f;
+  font-size: 20px;
+  font-weight: 600;
+}
+.product__card__main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  /* border: solid 2px rgb(88, 35, 35); */
+}
+.product__card {
+  padding: 20px;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* border: 2px solid #002c8f; */
+  text-align: center;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.service__cards__text {
+  font-size: 14px;
+  font-weight: 400;
+}
+.card__image {
+  width: 80%;
+  border-radius: 15px;
+}
+.card__btn {
+  width: 110px;
+  height: 40px;
+  background-color: #4ab2fd;
+  border: 0;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  /* font-size: 18px; */
+  /* font-weight: 600; */
+  outline: 0;
+  /* padding: 16px 18px; */
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  /* transition: all 0.3s; */
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.card__btn:hover {
+  background-color: rgb(0, 105, 165);
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 800px) {
+  .product__card__main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    /* flex-direction: column; */
+    /* border: solid 2px rgb(88, 35, 35); */
+  }
+  .cards__heading {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .service__cards__text {
+    font-size: 13px;
+    color: black;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .product__card {
+    padding: 20px;
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .product__card {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .cards__heading {
+    font-size: 10px;
+    font-weight: 600;
+  }
+}

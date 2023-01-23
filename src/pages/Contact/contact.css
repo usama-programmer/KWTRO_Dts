@@ -1,0 +1,126 @@
+.contact-us-container {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0px 20px 0px;
+}
+.contact-form-heading {
+  color: #002c8f;
+  margin-bottom: 20px;
+  /* width: auto; */
+  /* background-color: blue; */
+  /* width: 500px; */
+}
+
+.contact-form-container {
+  /* border: 2px solid green; */
+  box-shadow: rgb(0 0 0 / 10%) 0px 5px 15px;
+  padding: 50px;
+  width: 40%;
+  height: 100%;
+  background-color: #f1f6fb;
+  border-radius: 30px;
+}
+.contact-label {
+  /* border: 2px solid rgb(223, 4, 4); */
+  font-size: 14px;
+  color: #002c8f;
+}
+.form-control {
+  border: 1px solid rgb(187, 187, 187);
+  height: 50px;
+  width: 100%;
+  border-radius: 25px;
+  padding: 10px;
+}
+.contact-us-map {
+  width: 40%;
+  height: 100%;
+  padding: 50px;
+  background-color: #f1f6fb;
+  border-radius: 30px;
+  box-shadow: rgb(0 0 0 / 10%) 0px 5px 15px;
+}
+
+.contact-us-map p {
+  font-size: 14px;
+  font-weight: bold;
+  /* color: blueviolet; */
+}
+.contact_span {
+  font-weight: 400;
+  /* border: 2px solid rgb(22, 2, 121); */
+}
+
+.contact-btn {
+  margin-top: 30px;
+  width: 120px;
+  height: 50px;
+  background-color: #002c8f;
+  border: 0;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  /* font-size: 18px; */
+  /* font-weight: 600; */
+  outline: 0;
+  padding: 16px 21px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  /* transition: all 0.3s; */
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.contact-btn:hover {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #002c8f;
+  color: #002c8f;
+}
+@media only screen and (max-width: 900px) {
+  .contact-us-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 20px;
+  }
+  .contact-form-container {
+    width: 450px;
+  }
+  .contact-us-map {
+    width: 450px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .contact-us-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 10px;
+  }
+  .contact-form-container {
+    width: 90%;
+  }
+  .contact-us-map {
+    width: 90%;
+  }
+}
+
+.quickContact__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.quickContact_main_heading {
+  color: #002c8f;
+  font-size: 40px;
+  font-weight: 600;
+}

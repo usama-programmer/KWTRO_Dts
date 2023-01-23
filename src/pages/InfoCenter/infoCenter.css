@@ -1,0 +1,43 @@
+.infocenter__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.infocenter_main_heading {
+  color: #002c8f;
+  font-size: 40px;
+  font-weight: 600;
+}
+.fix {
+  max-width: 1200px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0%;
+  border: 1px solid rgb(184, 184, 184);
+}
+.collapse-href {
+  /* text-decoration: none; */
+
+  list-style: none;
+  /* text-align: left; */
+}
+
+.collapse-href:before {
+  content: "✓";
+  color: black;
+  font-weight: bold;
+  padding: 5px;
+}
+/* .collapse-heading {
+    color: #6fcef4;
+    font-weight: 400;
+  } */
+Panel header {
+  color: #6fcef4;
+  font-weight: 400;
+}
+@media only screen and (max-width: 500px) {
+  .infocenter_main_heading {
+    font-size: 30px;
+  }
+}

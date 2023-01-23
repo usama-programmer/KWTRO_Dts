@@ -1,0 +1,27 @@
+.covid__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.covid_main_heading {
+  color: #002c8f;
+  font-size: 40px;
+  font-weight: 600;
+}
+.covid-main {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  /* background-color: #f1f6fb; */
+}
+.covid-fclass {
+  display: flex;
+  justify-content: center;
+}
+.covid-image {
+  width: 70%;
+  border-radius: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}

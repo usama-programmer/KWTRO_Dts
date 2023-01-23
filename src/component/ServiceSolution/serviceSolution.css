@@ -1,0 +1,138 @@
+.servicesol__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.service_main_heading {
+  color: #002c8f;
+  font-size: 40px;
+  font-weight: 600;
+  /* display: flex;
+  justify-content: center;
+  color: #002c8f;
+  font-size: 44px;
+  font-weight: 800px; */
+}
+.sub_heading {
+  font-weight: 400;
+  /* color: #6fcef4; */
+  color: #002c8f;
+  font-size: 20px;
+  /* display: flex;
+  justify-content: center; */
+  margin: 30px;
+  /* justify-content: center; */
+  /* margin: 30px; */
+}
+.read-more {
+  color: #002c8f;
+  transition: 0.5s;
+}
+.read-more:hover {
+  color: #1a1a1a;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.main_div {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  justify-content: space-around;
+  font-weight: 400;
+  font-size: 14px;
+  color: #404040;
+}
+
+.main_divA {
+  justify-content: flex-start;
+  width: 300px;
+}
+
+.main_divB {
+  justify-content: flex-end;
+  /* text-align: right; */
+  width: 300px;
+}
+/* img {
+  height: 100%;
+  width: 100%;
+} */
+.service_section_image {
+  width: 100%;
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .service_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .service_section_image {
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .service_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .service_section_image {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .service_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .service_section_image {
+    width: 75%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .main_div {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .service_section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .service_section_image {
+    width: 60%;
+  }
+  .service_main_heading {
+    font-size: 30px;
+    font-weight: 600px;
+  }
+}
+
+/* .text1{
+    width: 350px;
+} */

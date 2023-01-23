@@ -1,0 +1,28 @@
+.about__container__page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.about_main_heading {
+  color: #002c8f;
+  font-size: 40px;
+  font-weight: 600;
+}
+.fix {
+  max-width: 1000px;
+}
+
+.hee {
+  color: #29a6e5;
+}
+
+.custom-panel {
+  color: #29a6e5;
+}
+.wrapper {
+  align-items: center;
+}
+.col-image {
+  padding: 10px;
+}

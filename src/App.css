@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather";
+  /* overflow: hidden; */
+}
+/* body {
+  border: 3px solid green;
+  max-width: 1300px;
+} */
